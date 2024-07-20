@@ -1,0 +1,1 @@
+console.log('This is JS loaded from the django application')

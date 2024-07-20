@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 90vh;
+  display: grid;
+  place-content: center;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:cadetblue;
+    color: dodgerblue;
+    cursor: pointer;
+    min-height: 10vh;
+    font-size: 2rem;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
